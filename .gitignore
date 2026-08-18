@@ -1,0 +1,20 @@
+```
+# Dependencies
+go.work
+go.work.sum
+vendor/
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build artifacts
+bin/
+_dist/
+_build/
+target/
+!main.go
+```
