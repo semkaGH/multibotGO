@@ -2,7 +2,6 @@
 # Dependencies
 go.work
 go.work.sum
-vendor/
 
 # Binaries
 *.exe
@@ -15,6 +14,31 @@ vendor/
 bin/
 _dist/
 _build/
-target/
-!main.go
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
 ```
