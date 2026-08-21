@@ -1,0 +1,44 @@
+```
+# Dependencies
+go.work
+go.work.sum
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build artifacts
+bin/
+_dist/
+_build/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+```
