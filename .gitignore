@@ -1,22 +1,17 @@
 ```
 # Dependencies
-go.work
-go.work.sum
+go.mod
+go.sum
 
-# Binaries
-*.exe
-*.dll
-*.so
-*.dylib
+# Compiled and build artifacts
+*.o
+*.obj
 *.out
 
-# Build artifacts
-bin/
-_dist/
-_build/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -26,19 +21,15 @@ _build/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Temporary files
-*.tmp
-*.temp
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.zip
 ```
