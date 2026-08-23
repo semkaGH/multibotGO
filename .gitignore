@@ -1,12 +1,17 @@
 ```
-# Dependencies
-go.mod
-go.sum
-
 # Compiled and build artifacts
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
+
+# Dependencies
+vendor/
+*.mod
+*.sum
 
 # Logs and temp files
 *.log
@@ -27,9 +32,12 @@ coverage/
 htmlcov/
 .coverage
 
-# Distribution / packaging
-dist/
-build/
-*.tar.gz
-*.zip
+# Build
+bin/
+obj/
+target/
+
+# OS
+.DS_Store
+Thumbs.db
 ```
